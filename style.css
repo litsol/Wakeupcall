@@ -51,16 +51,12 @@
 .gradient {
   background: -webkit-linear-gradient(#f5f5f5, #ffffff);
   /* For Safari */
-
   background: -o-linear-gradient(#f5f5f5, #ffffff);
   /* For Opera 11.1 to 12.0 */
-
   background: -moz-linear-gradient(#f5f5f5, #ffffff);
   /* For Firefox 3.6 to 15 */
-
   background: linear-gradient(#f5f5f5, #ffffff);
   /* Standard syntax (must be last) */
-
 }
 .wrapper-size {
   margin: 0 auto;
@@ -83,16 +79,12 @@ body {
   border-top: 7px solid #008044;
   background: -webkit-linear-gradient(#f5f5f5, #ffffff);
   /* For Safari */
-
   background: -o-linear-gradient(#f5f5f5, #ffffff);
   /* For Opera 11.1 to 12.0 */
-
   background: -moz-linear-gradient(#f5f5f5, #ffffff);
   /* For Firefox 3.6 to 15 */
-
   background: linear-gradient(#f5f5f5, #ffffff);
   /* Standard syntax (must be last) */
-
 }
 a:link,
 a:visited,
@@ -478,9 +470,6 @@ footer p {
   display: none;
 }
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  
-}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
@@ -577,4 +566,12 @@ footer p {
     padding-left: 2em;
     padding-right: 2em;
   }
+}
+/* Reposition Live Search Box */
+.LSBox {
+  position: relative;
+}
+#LSResult {
+  z-index: 100;
+  margin: inherit;
 }
