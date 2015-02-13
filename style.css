@@ -575,3 +575,6 @@ footer p {
   z-index: 100;
   margin: inherit;
 }
+div#btnav * .submenu {
+  display: none;
+}
