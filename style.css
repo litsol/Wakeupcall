@@ -575,3 +575,9 @@ footer p {
   z-index: 100;
   margin: inherit;
 }
+/* Resize embedded PDF viewer */
+object.viewembededfile {
+  height: 1200px;
+  width: 100%;
+}
+/* finis */
