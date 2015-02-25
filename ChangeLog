@@ -1,5 +1,9 @@
 2015-02-25  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
+	* manifest.cfg: Update to reflect that Wakeupcall is derived from Beyondskins Minimalist.
+
+	* index.html: Change the title to Wakeupcall.
+
 	* index.html: Added span containing the Marie Curie and Horizon2020 logos.
 
 2015-02-24  Michael Guravage  <guravage@weddell.itf.cwi.nl>
