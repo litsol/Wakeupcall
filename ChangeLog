@@ -1,3 +1,7 @@
+2015-02-25  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* index.html: Added span containing the Marie Curie and Horizon2020 logos.
+
 2015-02-24  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* style.less: Remove recent customizations
